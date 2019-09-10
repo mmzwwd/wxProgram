@@ -1,0 +1,141 @@
+
+/*底*/
+.downView{
+    width: 100%;
+    height: 1450rpx;
+    background: #FAE738;
+    margin: 0rpx;
+    text-align: center;
+}
+.flex_center{
+ background: url('http://test.mumzone.cn/egg_public/upload/getFile?id=72dc05ad0bc04f798aaff6ea334812bb') no-repeat 0px 0px;
+}
+/*获胜次数*/
+.winNum{
+    padding-top: 40rpx;
+    display: block;
+    font-size: 30rpx;  
+    color: #363527;
+    font-weight:500;
+}
+
+/*展示出拳结果*/
+.showView{
+    display: flex;  
+    width: 100%;
+    margin-top:30rpx;
+    height: 200rpx;
+}
+
+.gesturesImgL{
+    height: 180rpx;
+    width: 180rpx;
+    margin-left:80rpx;
+}
+
+.gesturesImgR{
+    height: 180rpx;
+    width: 180rpx;
+    margin-right:80rpx;
+}
+
+.winOrLost{
+    color: orangered; 
+    flex:1;
+    font-size: 30rpx;
+    margin-top:75rpx; 
+}
+
+/*用户出拳*/
+.chooseForUserView{
+    margin:40rpx; 
+    height: 800rpx;
+    background: white;
+    text-align: center;
+}
+
+.choose-V{
+    display: flex;
+    margin-top: 40rpx;
+}
+
+.choose-view{  
+    flex: 1;
+    content:none !important;
+    height: 140rpx;
+    width: 140rpx; 
+    border:1px solid white;
+}  
+
+.choose-image{
+    height: 160rpx;
+    width: 160rpx;
+    border-radius:80rpx;
+}
+
+/*再来*/
+.againBtn{
+    margin:80rpx; 
+    background: #FAE738;
+}
+.tabbar_box{
+    font-size: 22rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 98rpx;
+    box-shadow: 0 0 16px 2px rgba(199,199,199,0.40);
+}
+.tabbar_box.iphoneX-height{
+    padding-bottom: 68rpx;
+}
+.middle-wrapper{
+  position: absolute;
+  right: 310rpx;
+  bottom: 0;
+  background-color: #fff;
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  border-top: 2rpx solid #f2f2f3;
+}
+.middle-wrapper.iphoneX-height{
+  bottom: 68rpx;
+}
+.tabbar_nav{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+.tabbar_icon,.special-text-wrapper{
+    width: 40rpx;
+    height: 40rpx;
+    margin-bottom:10rpx
+}
+.special-wrapper{
+  position: absolute;
+  left: 77rpx;
+  top: -45rpx;
+  width: 106rpx;
+  height: 106rpx;
+  border-radius: 50%;
+  border-top: 2rpx solid #f2f2f3;
+  background-color: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 8rpx;
+}
+.special-wrapper .tabbar_icon{
+    width: 90rpx;
+    height: 90rpx;
+
+}
